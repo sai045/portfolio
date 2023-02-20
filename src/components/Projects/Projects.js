@@ -7,6 +7,7 @@ import AnimeMerch from "../../Assets/Projects/Anime-Merch.PNG";
 import CareAndCure from "../../Assets/Projects/CareAndCure.PNG";
 import serverlessOTP from "../../Assets/Projects/serverlessOTP.PNG";
 import authentication from '../../Assets/Projects/authentication.png'
+import portfolio from '../../Assets/Projects/Portfolio.PNG'
 
 function Projects() {
   return (
@@ -48,6 +49,16 @@ function Projects() {
               description="The HR Portal website is a MERN stack web application designed for companies to manage employee-related activities.Administrators manage employee data, approve leave requests, and generate reports. The website shows a overview of the company's HR data and a responsive design for compatibility with all devices. The portal aims to improve HR processes and enhance the HR experience."
               ghLink="https://github.com/sai045/Anime-Merch"
               demoLink="https://sai045.github.io/Anime-Merch/home.html"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Portfolio site"
+              description="My Portfolio site built with ReactJS and deployed on Vercel. The site features project pages with descriptions, screenshots, and links to live demos or source code repositories, an about page highlighting my skills, and a resume page with a downloadable resume. The site is designed with a responsive layout, engaging animations, and interactivity to provide an immersive user experience."
+              ghLink="https://github.com/sai045/portfolio"
+              demoLink="https://portfolio-theta-eight-89.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
