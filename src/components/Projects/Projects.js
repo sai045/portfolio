@@ -8,6 +8,7 @@ import CareAndCure from "../../Assets/Projects/CareAndCure.PNG";
 import serverlessOTP from "../../Assets/Projects/serverlessOTP.PNG";
 import authentication from '../../Assets/Projects/authentication.png'
 import portfolio from '../../Assets/Projects/Portfolio.PNG'
+import CLIBasedKeyValueStore from "../../Assets/Projects/CLIBasedKeyValueStore.PNG"
 
 function Projects() {
   return (
@@ -47,8 +48,8 @@ function Projects() {
               isBlog={false}
               title="Hr Portal"
               description="The HR Portal website is a MERN stack web application designed for companies to manage employee-related activities.Administrators manage employee data, approve leave requests, and generate reports. The website shows a overview of the company's HR data and a responsive design for compatibility with all devices. The portal aims to improve HR processes and enhance the HR experience."
-              ghLink="https://github.com/sai045/Anime-Merch"
-              demoLink="https://sai045.github.io/Anime-Merch/home.html"
+              ghLink="https://github.com/sai045/Hr-Portal-Team-74"
+              demoLink="https://hr-portal-team-74-y1r7.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -59,6 +60,16 @@ function Projects() {
               description="My Portfolio site built with ReactJS and deployed on Vercel. The site features project pages with descriptions, screenshots, and links to live demos or source code repositories, an about page highlighting my skills, and a resume page with a downloadable resume. The site is designed with a responsive layout, engaging animations, and interactivity to provide an immersive user experience."
               ghLink="https://github.com/sai045/portfolio"
               demoLink="https://portfolio-theta-eight-89.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CLIBasedKeyValueStore}
+              isBlog={false}
+              title="CLI Based Key Value Store"
+              description="The CLI-Based Key-Value Store is an npm package that provides a command line interface for users to securely store and retrieve data in a key-value format directly from their terminal. With features like token-based authentication, a backend server, and cross-platform compatibility, it offers a convenient and secure solution for managing key-value data."
+              ghLink="https://github.com/sai045/CLI-Based-Key-Value-store"
+              demoLink="https://www.npmjs.com/package/sai045-cli-based-key-value-store"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -77,8 +88,8 @@ function Projects() {
               isBlog={false}
               title="Anime Merch Frontend"
               description="The Anime Merch frontend project is a web application that showcases a selection of anime merchandise that fans can browse and purchase. The project is built using HTML, CSS, and JavaScript, with the aim of providing an engaging and user-friendly interface for fans to easily navigate and purchase their favorite anime merchandise."
-              ghLink="https://github.com/sai045/Hr-Portal-Team-74"
-              demoLink="https://hr-portal-team-74-y1r7.vercel.app/"
+              ghLink="https://github.com/sai045/Anime-Merch"
+              demoLink="https://sai045.github.io/Anime-Merch/home.html"
             />
           </Col>
         </Row>
